@@ -1,0 +1,163 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+nav > br {
+
+    display: none;
+}
+
+nav > a {
+    
+
+    display: inline-block;
+    width: 130px;
+    height: 46px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-decoration-line: none; 
+    border-style: solid;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-family: cursive;
+font-size: 21px;
+
+
+}
+nav > a{
+
+
+}
+
+
+
+
+h1{
+
+font-family: cursive;
+    font-size: 70px;
+    font-weight: normal;
+    position: relative;
+    top: -100px;
+}
+
+h3{
+
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-family: cursive;
+    height: 66px;
+    font-size: 40px;
+    font-weight: revert;
+}
+
+
+header{
+
+    border-style: solid;
+    border-width: 1px;
+    height: 295px;
+}
+
+header , h3{
+    width: 1527px;
+
+}
+
+header , h3 , main , nav{
+
+    position: relative;
+    top: 167px;
+    left: 242px;
+
+}
+
+
+
+
+main > i , b {
+    font-size: 30px;
+    font-family: cursive;
+    
+
+}
+nav {
+    position: relative;
+    top: -217px;
+    left: 1255px;
+    
+    width: 414px;
+}
+
+body{
+    width: 1600px;
+}
+
+
+main{
+    position: relative;
+    left: 510px;
+    width: 882px;
+    
+}
+
+.logo {
+    position: relative;
+    top: 5px;
+    width: 204px;
+     height: 201px;
+z-index: 1;
+}
+
+.salto {
+    
+  }
+.hockey1{
+
+    width: 1527px;
+    height: 438px;
+    position: absolute;
+    left: 244px;
+    top: 527px;
+}
+
+.hockey2{
+
+    width: 1527px;
+    height: 438px;
+    position: absolute;
+    left: 244px;
+    top: 527px;
+}
+.hockey3{
+
+    width: 1527px;
+    height: 438px;
+    position: absolute;
+    left: 244px;
+    top: 530px;
+}
+
+.design2{
+    width: 1523px;
+    height: 297px;
+    position: relative;
+    top: -96px;
+    left: 1px;
+
+}
+
+
+
+
+
+
+
+
+

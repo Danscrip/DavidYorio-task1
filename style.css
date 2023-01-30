@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+ 
+ 
+     background-image: url(hockey_1.jpg);
+ }
+ h1{
+
+    font-family: cursive;
+ font-size: 70px;
+ 
+ }
+ 
+ h3 {
+    font-family: cursive;
+      font-size: 35px;
+     background-color: black;
+     color: white;
+     width: 1700px;
+     height: 50px;
+     position: absolute;
+     down: 80px; left: 150px;
+     text-align: center;
+     
+ }
+ header{
+    background-image: url("design1_image1.jpg");
+     background-position: center;
+     background-attachment: fixed;
+     width: 1700px;
+     height: 400px;
+     position: relative;
+     left: 150px;
+     
+     
+ }
+ .design1 {
+     
+     
+ }
+ nav > br {
+     
+ }
+ 
+ b{
+ font-size: 25px;
+ 
+ }
+ i{
+ font-size: 25px;
+ 
+ }
+ 
+ a{
+ font-size: 25px;
+ 
+ }
+ main{
+      
+     position: relative;
+     left: 599px; bottom: 70px;
+     width: 1000px;
+     height: 100px;
+     padding: 10px
+     
+   
+   
+ 
+ }
+ .logo{
+ 
+    width: 120px;
+    height: 123px;
+    background-color: aliceblue;
+     position: relative;
+     top: 262px;  left: 1453px;
+     z-index: 1;
+ }
+ 
+ nav{
+ 
+    font-family: cursive;
+     position: relative;
+     top: 152px;
+     left: 150px
+     
+ }
+main > b{
+
+    font-family: cursive;
+}
+
+main > i{
+
+    font-family: cursive;
+
+}
+
+
+
+

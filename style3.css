@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    body , html , header , h1 , img , h3 , nav , a, main , b , i {
+
+    
+   }
+
+   header , .design2 , h3{
+    width: 1527px;
+
+}
+
+header , .design2 {
+    height: 295px;
+
+}
+
+header , h3 , main , nav{
+
+    position: relative;
+    top: 167px;
+    left: 242px;
+
+}
+
+.hockey1{
+
+    
+}
+
+.hockey2{
+
+    
+}
+.hockey3{
+
+    
+}
+.logo{
+    position: relative;
+    top: -295px;
+    left: 1227px;
+    z-index: 1;
+    width: 298px;
+    height: 298px;
+}
+h1{
+    width: 800px;
+    font-family: cursive;
+    font-size: 50px;
+    font-weight: normal;
+
+}
+h3{
+    position: relative;
+    top: 216px;
+    left: 246px;
+    z-index: 1;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-family: cursive;
+    height: 66px;
+    font-size: 40px;
+    font-weight: revert;
+}
+nav {
+    position: relative;
+    top: -854px;
+    left: 1352px;
+    width: 414px;
+    
+}
+nav > br {
+
+    display: none;
+}
+nav > a {
+    
+
+    display: inline-block;
+    width: 130px;
+    height: 46px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-decoration-line: none; 
+    border-style: solid;
+    color: aliceblue;
+    background-color: cornflowerblue;
+    font-family: cursive;
+font-size: 21px;
+
+
+}
+nav>a:hover{
+    background-color: rgb(32, 197, 32);
+}
+main{
+    width: 1520px;
+    position: relative;
+    top: -432px;
+    left: 251px;
+
+}
+main > i , b {
+    font-size: 30px;
+    font-family: cursive;
+}
+.hockey1 , .hockey2 , .hockey3 {
+
+    position: relative;
+    top: 149px;
+
+    left: 247px;
+    width: 1523px;
+    height: 678px
+}
+
+.design2{
+    width: 1228px;
+}
+h3 , main , .hockey1 , .hockey2 , .hockey3{
+    position: relative;
+    left: 242px;
+}
+
+
+
+
+
+
+
+
+
