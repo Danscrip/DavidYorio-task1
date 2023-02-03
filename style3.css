@@ -5,11 +5,46 @@
     
     
     }
-    body , html , header , h1 , img , h3 , nav , a, main , b , i {
+    body , html , header , h1 , img , h3 , nav , a, main , b , i , div {
+     /*border-style: solid; */
 
     
    }
+   .principal{
+    background-image: url(design1_image1.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   }
+   .cabecera{
+    display: flex;
+    flex-direction: row;
+   
+    
+    justify-content: space-between;
+    height: 78px;
+    
+    width: 1196px;
+   }
 
+   
+   .figuras{
+    display: flex;
+    flex-direction: row;
+   }
+   .imagen{
+    background-image: url(hockey_1.jpg);
+
+    height: 800px;
+    width: 1538px;
+    
+   }
+
+   body{
+    height: 2000px;
+   }
    header , .design2 , h3{
     width: 1527px;
 
@@ -22,15 +57,13 @@ header , .design2 {
 
 header , h3 , main , nav{
 
-    position: relative;
-    top: 167px;
-    left: 242px;
+    
 
 }
 
 .hockey1{
-
-    
+width: 1539px;
+    height: 951px;
 }
 
 .hockey2{
@@ -42,9 +75,7 @@ header , h3 , main , nav{
     
 }
 .logo{
-    position: relative;
-    top: -295px;
-    left: 1227px;
+    
     z-index: 1;
     width: 298px;
     height: 298px;
@@ -57,9 +88,7 @@ h1{
 
 }
 h3{
-    position: relative;
-    top: 216px;
-    left: 246px;
+    
     z-index: 1;
     border-style: solid;
     border-width: 1px;
@@ -70,10 +99,8 @@ h3{
     font-weight: revert;
 }
 nav {
-    position: relative;
-    top: -854px;
-    left: 1352px;
-    width: 414px;
+    
+    width: 700px;
     
 }
 nav > br {
@@ -103,37 +130,128 @@ nav>a:hover{
 }
 main{
     width: 1520px;
-    position: relative;
-    top: -432px;
-    left: 251px;
+    
 
 }
-main > i , b {
+.info > i , b {
     font-size: 30px;
     font-family: cursive;
 }
-.hockey1 , .hockey2 , .hockey3 {
-
-    position: relative;
-    top: 149px;
-
-    left: 247px;
-    width: 1523px;
-    height: 678px
+.hockey1 , .hockey2 , .hockey3 {width: 1523px;height: 678px
 }
 
 .design2{
     width: 1228px;
+    height: 307px;
 }
 h3 , main , .hockey1 , .hockey2 , .hockey3{
-    position: relative;
-    left: 242px;
+
+
+
+   
+    
+}
+.tabla{
+    width: 1200px;
+    height: 800px;
 }
 
+table {
+    width: 100%;
+    height: 100%;
+    
+  }
+  th, td {
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  .uno{
+    font-size: 60px;
+  }
+  img{
+    width: 1175px;
+    height: 387px
+  }
+  p{
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+  }
+    dt {
+        font-size: 30px;
+        float: left;
+        clear: left;
+        width: 110px;
+        font-weight: bold;
+        color: rgb(4, 8, 4);
+    }
 
+    dt::after {
+        content: ":";
+    }
 
+    dd {
+        font-size: 30px;
+        margin: 0 0 0 80px;
+        padding: 0 0 0.5em 0;
+    }
+    .lista1{
+width: 200px;
+    }
+    .lista2{
+width: 400px;
+    }
+    .lista3{
+width: 500px;
+    }
+    .lista4{
 
+    }
+    .informacion{
+        width: 1200px;
+    }
 
+    .titulo{
+        font-size: 50px;
+    }
+
+    .titulo2 , .titulo1{
+        font-size: 30px;
+    }
+    .titulo3{
+        font-size: 40px;
+    }
+    .cuerpo{
+        font-size: 25px;
+        width: 1259px;
+    }
+    .list{
+        list-style: lower-alpha;
+    }
+    .pantom{
+        height: 100px;
+    }
+    .pantom2{
+        height: 100px;
+    }
+    .pantom3{height: 100px;}
+    .pantom4{
+        height: 100px;
+    }
+    .pantom5{
+        height: 50px;
+    }
+    .pantom6{
+        height: 50px;
+    }
+
+    .rulesimage{
+        
+    }
+  /*     width: 479px  *\
+  
 
 
 
