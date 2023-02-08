@@ -1,16 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-    }
-    body , html , header , h1 , img , h3 , nav , a, main , b , i , div {
-  /*   border-style: solid; */
 
-    
-   }
-   .principal{
+
+}
+
+body,
+html,
+header,
+h1,
+img,
+h3,
+nav,
+a,
+main,
+b,
+i,
+div {
+    /*   border-style: solid; */
+
+
+}
+
+.principal {
     background-image: url(design1_image1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,78 +32,82 @@
     align-items: center;
     width: 100%;
     height: 100%;
-   }
-   .cabecera{
+}
+
+.cabecera {
     display: flex;
     flex-direction: row;
-   
-    
+
+
     justify-content: space-between;
     height: 78px;
-    
-    width: 1196px;
-   }
 
-   
-   .figuras{
+    width: 1196px;
+}
+
+
+.figuras {
     display: flex;
     flex-direction: row;
-   }
-   .imagen{
+}
+
+.imagen {
     background-image: url(hockey_1.jpg);
 
     height: 800px;
     width: 1538px;
-    
-   }
 
-   body{
+}
+
+body {
     height: 2872px;
-   }
-   header , .design2 , h3{
+}
+
+header,
+.design2,
+h3 {
     width: 1527px;
 
 }
 
-header , .design2 {
+header,
+.design2 {
     height: 295px;
 
 }
 
-header , h3 , main , nav{
+header,
+h3,
+main,
+nav {}
 
-    
-
-}
-
-.hockey1{
-width: 1539px;
+.hockey1 {
+    width: 1539px;
     height: 951px;
 }
 
-.hockey2{
+.hockey2 {}
 
-    
-}
-.hockey3{
+.hockey3 {}
 
-    
-}
-.logo{
-    
+.logo {
+
     z-index: 1;
     width: 298px;
     height: 298px;
 }
-h1{
+
+h1 {
     width: 800px;
+
     font-family: cursive;
     font-size: 50px;
     font-weight: normal;
 
 }
-h3{
-    
+
+h3 {
+
     z-index: 1;
     border-style: solid;
     border-width: 1px;
@@ -100,17 +117,20 @@ h3{
     font-size: 40px;
     font-weight: revert;
 }
+
 nav {
-    
+
     width: 1000px;
-    
+
 }
-nav > br {
+
+nav>br {
 
     display: none;
 }
-nav > a {
-    
+
+nav>a {
+
 
     display: inline-block;
     width: 130px;
@@ -118,42 +138,51 @@ nav > a {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    text-decoration-line: none; 
+    text-decoration-line: none;
     border-style: solid;
     color: aliceblue;
     background-color: cornflowerblue;
     font-family: cursive;
-font-size: 21px;
+    font-size: 21px;
 
 
 }
-nav>a:hover{
+
+nav>a:hover {
     background-color: rgb(32, 197, 32);
 }
-main{
+
+main {
     width: 1520px;
-    
+
 
 }
-.info > i , b {
+
+.info>i,
+b {
     font-size: 30px;
     font-family: cursive;
 }
-.hockey1 , .hockey2 , .hockey3 {width: 1523px;height: 678px
+
+.hockey1,
+.hockey2,
+.hockey3 {
+    width: 1523px;
+    height: 678px
 }
 
-.design2{
+.design2 {
     width: 1228px;
     height: 307px;
 }
-h3 , main , .hockey1 , .hockey2 , .hockey3{
 
+h3,
+main,
+.hockey1,
+.hockey2,
+.hockey3 {}
 
-
-   
-    
-}
-.tabla{
+.tabla {
     width: 1200px;
     height: 800px;
 }
@@ -161,26 +190,332 @@ h3 , main , .hockey1 , .hockey2 , .hockey3{
 table {
     width: 100%;
     height: 100%;
-    
-  }
-  th, td {
+
+}
+
+th,
+td {
     font-size: 40px;
     border: 1px solid black;
     padding: 8px;
     text-align: left;
-  }
-  .uno{
+}
+
+.uno {
     font-size: 60px;
-  }
-  img{
+}
+
+img {
     width: 1175px;
     height: 387px
-  }
-  p{
+}
+
+p {
     width: 100%;
     height: 100%;
     font-size: 30px;
-  }
+}
+
+dt {
+    font-size: 30px;
+    float: left;
+    clear: left;
+    width: 110px;
+    font-weight: bold;
+    color: rgb(4, 8, 4);
+}
+
+dt::after {
+    content: ":";
+}
+
+dd {
+    font-size: 30px;
+    margin: 0 0 0 80px;
+    padding: 0 0 0.5em 0;
+}
+
+.lista1 {
+    width: 200px;
+}
+
+.lista2 {
+    width: 400px;
+}
+
+.lista3 {
+    width: 500px;
+}
+
+.lista4 {}
+
+.informacion {
+    width: 1200px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.titulo2,
+.titulo1 {
+    font-size: 30px;
+}
+
+.titulo3 {
+    font-size: 40px;
+}
+
+.cuerpo {
+    font-size: 25px;
+    width: 1259px;
+}
+
+.list {
+    list-style: lower-alpha;
+}
+
+.pantom {
+    height: 100px;
+}
+
+.pantom2 {
+    height: 100px;
+}
+
+.pantom3 {
+    height: 100px;
+}
+
+.pantom4 {
+    height: 100px;
+}
+
+.pantom5 {
+    height: 50px;
+}
+
+.pantom6 {
+    height: 50px;
+}
+
+.rulesimage {}
+
+.map1 {
+    width: 700px;
+    height: 700px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .principal {
+        background-image: url(design1_image1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cabecera {
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: space-between;
+        height: 50px;
+
+        width: 700px;
+    }
+
+
+    .figuras {
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        height: 100px;
+    }
+
+    .imagen {
+        background-image: url(hockey_1.jpg);
+
+        height: 100px;
+        width: 700px;
+
+    }
+
+    body {
+        height: 2872px;
+        width: 700px;
+    }
+
+    img>.design2 {
+
+        width: 700px;
+        height: 100px;
+    }
+
+    header,
+    .design2,
+    h3 {
+        width: 700px;
+
+
+
+
+    }
+
+    header,
+    .design2 {
+        height: 40px;
+
+    }
+
+    header,
+    h3,
+    main,
+    nav {}
+
+    .hockey1 {
+        width: 300px;
+        height: 951px;
+    }
+
+    .hockey2 {}
+
+    .hockey3 {}
+
+    .logo {
+
+        z-index: 1;
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        width: 700px;
+        height: 20px;
+        font-family: cursive;
+        font-size: 15px;
+        font-weight: normal;
+
+    }
+
+    h3 {
+
+        z-index: 1;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        font-family: cursive;
+        height: 66px;
+        font-size: 15px;
+        font-weight: revert;
+    }
+
+    nav {
+
+        width: 700px;
+
+    }
+
+    nav>br {
+
+        display: none;
+    }
+
+    nav>a {
+
+
+        display: inline-block;
+        width: 63px;
+        height: 26px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        text-decoration-line: none;
+        border-style: solid;
+        color: aliceblue;
+        background-color: cornflowerblue;
+        font-family: cursive;
+        font-size: 10px;
+
+
+    }
+
+    nav>a:hover {
+        background-color: rgb(32, 197, 32);
+    }
+
+    main {
+        width: 700px;
+
+
+    }
+
+    .info>i,
+    b {
+        font-size: 10px;
+        font-family: cursive;
+    }
+
+    .hockey1,
+    .hockey2,
+    .hockey3 {
+        width: 700px;
+        height: 100px
+    }
+
+    .design2 {
+        width: 700px;
+        height: 100px;
+    }
+
+    h3,
+    main,
+    .hockey1,
+    .hockey2,
+    .hockey3 {}
+
+    .tabla {
+        width: 600px;
+        height: 300px;
+        position: relative;
+        top: 50px;
+    }
+
+    table {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    th,
+    td {
+        font-size: 10px;
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .uno {
+        font-size: 20px;
+    }
+
+    img {
+        width: 300px;
+        height: 30px
+    }
+
+    p {
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+    }
+
     dt {
         font-size: 30px;
         float: left;
@@ -199,66 +534,515 @@ table {
         margin: 0 0 0 80px;
         padding: 0 0 0.5em 0;
     }
-    .lista1{
-width: 200px;
-    }
-    .lista2{
-width: 400px;
-    }
-    .lista3{
-width: 500px;
-    }
-    .lista4{
 
-    }
-    .informacion{
-        width: 1200px;
+    .lista1 {
+        width: 200px;
     }
 
-    .titulo{
-        font-size: 50px;
+    .lista2 {
+        width: 400px;
     }
 
-    .titulo2 , .titulo1{
-        font-size: 30px;
+    .lista3 {
+        width: 500px;
     }
-    .titulo3{
-        font-size: 40px;
+
+    .lista4 {}
+
+    .informacion {
+        width: 700px;
+        height: 150px;
+        position: relative;
+        top: 100px;
     }
-    .cuerpo{
-        font-size: 25px;
+
+    .titulo {
+        font-size: 10px;
+    }
+
+    .titulo2,
+    .titulo1 {
+        font-size: 10px;
+    }
+
+    .titulo3 {
+        font-size: 10px;
+    }
+
+    .cuerpo {
+        font-size: 15px;
         width: 1259px;
     }
-    .list{
+
+    .list {
         list-style: lower-alpha;
     }
-    .pantom{
+
+    .pantom {
         height: 100px;
     }
-    .pantom2{
+
+    .pantom2 {
         height: 100px;
     }
-    .pantom3{height: 100px;}
-    .pantom4{
+
+    .pantom3 {
         height: 100px;
     }
-    .pantom5{
-        height: 50px;
+
+    .pantom4 {
+        height: 100px;
     }
-    .pantom6{
+
+    .pantom5 {
         height: 50px;
     }
 
-    .rulesimage{
-        
+    .pantom6 {
+        height: 50px;
     }
-    .map1{
+
+    .rulesimage {}
+
+    .map1 {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        position: relative;
+        top: 297px;
+    }
+
+    iframe {
+
+        width: 200px;
+        height: 200px;
+    }
+
+    div {
         width: 700px;
-        height: 700px;
     }
-  /*     width: 479px  *\
-  
+
+    h3 {
+        width: 700px;
+    }
+
+}
 
 
 
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+
+    .principal {
+        background-image: url(design1_image1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cabecera {
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: space-between;
+        height: 78px;
+
+        width: 1023px;
+    }
+
+
+    .figuras {
+        display: flex;
+        flex-direction: row;
+        width: 1023;
+    }
+
+    .imagen {
+        background-image: url(hockey_1.jpg);
+
+        height: 400px;
+        width: 1023px;
+
+    }
+
+    body {
+        height: 2872px;
+    }
+
+    header,
+    .design2,
+    h3 {
+        width: 700px;
+
+    }
+
+    header,
+    .design2 {
+        height: 295px;
+
+    }
+
+    h1 {
+        width: 800px;
+
+        font-family: cursive;
+        font-size: 50px;
+        font-weight: normal;
+
+    }
+
+    h3 {
+
+        z-index: 1;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        font-family: cursive;
+        height: 66px;
+        font-size: 40px;
+        font-weight: revert;
+        width: 1023;
+    }
+
+    nav {
+
+        width: 1000px;
+
+    }
+
+    nav>br {
+
+        display: none;
+    }
+
+    nav>a {
+
+
+        display: inline-block;
+        width: 130px;
+        height: 46px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        text-decoration-line: none;
+        border-style: solid;
+        color: aliceblue;
+        background-color: cornflowerblue;
+        font-family: cursive;
+        font-size: 21px;
+
+
+    }
+
+
+
+
+    .tabla {
+        width: 1023px;
+        height: 500px;
+    }
+    
+    table {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    th,
+    td {
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .uno {
+        font-size: 6
+        30px;
+    }
+    
+    img {
+        width: 1000px;
+        height: 387px
+    }
+    
+    p {
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
+    
+    dt {
+        font-size: 30px;
+        float: left;
+        clear: left;
+        width: 110px;
+        font-weight: bold;
+        color: rgb(4, 8, 4);
+    }
+    
+    dt::after {
+        content: ":";
+    }
+    
+    dd {
+        font-size: 30px;
+        margin: 0 0 0 80px;
+        padding: 0 0 0.5em 0;
+    }
+    
+    .lista1 {
+        width: 200px;
+    }
+    
+    .lista2 {
+        width: 400px;
+    }
+    
+    .lista3 {
+        width: 500px;
+    }
+    
+    .lista4 {}
+    
+    .informacion {
+        width: 1023px;
+    }
+
+    .cuerpo {
+        font-size: 25px;
+        width: 1023px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+
+    .principal {
+        background-image: url(design1_image1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cabecera {
+        display: flex;
+        flex-direction: row;
+
+
+        justify-content: space-between;
+        height: 78px;
+
+        width: 1023px;
+    }
+
+
+    .figuras {
+        display: flex;
+        flex-direction: row;
+        width: 1023;
+    }
+
+    .imagen {
+        background-image: url(hockey_1.jpg);
+
+        height: 400px;
+        width: 1023px;
+
+    }
+
+    body {
+        height: 2872px;
+    }
+
+    header,
+    .design2,
+    h3 {
+        width: 700px;
+
+    }
+
+    header,
+    .design2 {
+        height: 295px;
+
+    }
+
+    h1 {
+        width: 800px;
+
+        font-family: cursive;
+        font-size: 50px;
+        font-weight: normal;
+
+    }
+
+    h3 {
+
+        z-index: 1;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        font-family: cursive;
+        height: 66px;
+        font-size: 40px;
+        font-weight: revert;
+        width: 1023;
+    }
+
+    nav {
+
+        width: 1000px;
+
+    }
+
+    nav>br {
+
+        display: none;
+    }
+
+    nav>a {
+
+
+        display: inline-block;
+        width: 130px;
+        height: 46px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        text-decoration-line: none;
+        border-style: solid;
+        color: aliceblue;
+        background-color: cornflowerblue;
+        font-family: cursive;
+        font-size: 21px;
+
+
+    }
+
+
+
+
+    .tabla {
+        width: 1023px;
+        height: 500px;
+    }
+    
+    table {
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    th,
+    td {
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    .uno {
+        font-size: 6
+        30px;
+    }
+    
+    img {
+        width: 1000px;
+        height: 387px
+    }
+    
+    p {
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
+    
+    dt {
+        font-size: 30px;
+        float: left;
+        clear: left;
+        width: 110px;
+        font-weight: bold;
+        color: rgb(4, 8, 4);
+    }
+    
+    dt::after {
+        content: ":";
+    }
+    
+    dd {
+        font-size: 30px;
+        margin: 0 0 0 80px;
+        padding: 0 0 0.5em 0;
+    }
+    
+    .lista1 {
+        width: 200px;
+    }
+    
+    .lista2 {
+        width: 400px;
+    }
+    
+    .lista3 {
+        width: 500px;
+    }
+    
+    .lista4 {}
+    
+    .informacion {
+        width: 1023px;
+    }
+
+    .cuerpo {
+        font-size: 25px;
+        width: 1023px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/*     width: 479px  *\
